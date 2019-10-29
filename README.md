@@ -1,5 +1,6 @@
 # Vim
 Introduce the using of vim, and setting config.
+Vim编辑器的简单介绍、常用命令，和进阶后的自定义配置。
 
 # 从入门到进阶的慕课教程
 https://www.imooc.com/learn/1129
