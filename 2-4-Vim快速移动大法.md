@@ -10,11 +10,11 @@
 
 
 # 单词之间“飞舞”
-w/W 移动到下一个word/Word开头，e/E 下一个word/WORD结尾;  
-b/B 回到上一个work/WORD开头，理解为backWord.  
-(word 是以非空白符分割的单词，WORD是以空白符分割的单词.)  
+- w/W 移动到下一个word/Word开头，e/E 下一个word/WORD结尾;  
+- b/B 回到上一个work/WORD开头，理解为backWord.  
+- (word 是以非空白符分割的单词，WORD是以空白符分割的单词.)  
 
-Example TEXT:  
+- Example TEXT:  
 Hello world, i am Sai. It is a test text.  
 Today is Monday, the day is 4th Nov 2019. I am from China. BeiJing is a beautiful city. My MacBook is ￥15000. WOW!      
 
