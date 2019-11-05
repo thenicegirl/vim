@@ -30,8 +30,8 @@ a,i,o,A,I,O 6个字母，6中插入方式
 - 使用/ 或者 ？进行前向或者反向搜索
 - 使用n/N跳转到下一个或者上一个匹配
 
-> Text Example1
-It is a nice nice nice nice day, I very happy happy happy  happy.
+**Text Example1**
+> It is a nice nice nice nice day, I very happy happy happy  happy.
 Monday 
 Monday 
 Tuesday 
