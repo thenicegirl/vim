@@ -1,14 +1,14 @@
-#2-1 初识Vim
+# 2-1 初识Vim
 ## 下载与安装
 1 Linux/Unix，自带Vim  
 2 Windows，可以使用Gvim  
 
 ## 初识vim
-- 进入vim，即编辑模式，键盘按字母i
-- 回到normal模式，键盘按ESC
-- 退出vim编辑器，键盘输入冒号:q
-- 保存内容，键盘输入 冒号:w
-- 保存并退出，键盘输入 冒号:wq
+- i按键   : 进入vim，即编辑模式，键盘按字母i
+- ESC按键 : 回到normal模式，键盘按ESC
+- :q组合键: 退出vim编辑器，键盘输入冒号:q
+- :w组合键: 保存内容，键盘输入 冒号:w
+- :wq组合键:保存并退出，键盘输入 冒号:wq
 
 ## 开始编辑
 - i --insert，插入模式，字符前面插入
@@ -20,4 +20,4 @@
 - O --open a new line ,above 
 
 ## 模式切换
-insert --> normal, ESC
+- ECS按键 --insert模式 --> normal模式
