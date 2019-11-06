@@ -1,0 +1,14 @@
+# 2-6-Vim如何搜索替换.md
+
+## Vim替换命令
+**:[range]s[ubstitute]/{pattern}/{string}/[flags]**
+- : 命令行模式
+- range，表示范围，比如10,20 表示10-20行；% 表示全部
+- pattern，是要替换的模式
+- string, 是替换后的文本
+
+## 替换标志位
+- flags，有3个常用的标志：
+> g[lobal]，表示全局替换；
+> c[oncifirm]表示确认，可以确认修改或者拒绝修改；
+> n[number]报告匹配的次数而不替换，可以用来查询匹配次数
