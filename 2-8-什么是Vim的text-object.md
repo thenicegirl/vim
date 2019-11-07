@@ -1,6 +1,8 @@
 # 2-8-什么是Vim的text-object.md
 
 ## Text Object-文本对象
+- 类比代码里面的对象，如Java的对象。不过，文本对象主要是单词w， 句子s, 段落p
+
 
 ## 文本对象操作方式
 **[number]<command>[text object]** 
