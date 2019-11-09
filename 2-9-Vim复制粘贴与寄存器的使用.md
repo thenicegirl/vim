@@ -32,7 +32,7 @@
 
 
 ***
-** 练习文本
+> 练习文本
 ImageProcessService:
   buildtype: jarOne
   build:
@@ -53,5 +53,4 @@ ImageProcessService:
       LD_PRELOAD: /usr/local/lib/libtcmalloc.so
 
 
-***
 
