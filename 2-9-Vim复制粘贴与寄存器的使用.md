@@ -31,8 +31,10 @@
 - 寄存器和系统剪切板之间互通：
 > :set clipboard=unnamed
 
-> 练习文本
-ImageProcessService:  
+
+
+## 练习文本
+> ImageProcessService:  
   buildtype: jarOne   
   build:              
     env:build_args    
@@ -46,7 +48,6 @@ ImageProcessService:
       LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
       LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
       LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
-                      
       bLD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
       aLD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
       +LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
