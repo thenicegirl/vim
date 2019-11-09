@@ -25,32 +25,29 @@
 > 命令:“regname+cmd, 举例:  
 "ayiw 复制一个单词到寄存器a中  
 "ap 把寄存器a中的内容粘贴  
-“” p其实就等同p
+“” p其实就等同p  
+"+y可以复制到系统剪切板，同理， "+p，可以把系统剪切板内容粘贴到+
 
+- 寄存器和系统剪切板之间互通：
+> :set clipboard=unnamed
 
-
-
-
-***
 > 练习文本
-ImageProcessService:
-  buildtype: jarOne
-  build:
-    env:build_args
-      JAVA_HOME: /opt/soft/openjdk1.8.0_202
-  runtime:
-    env:
-      JAVA_HOME: /opt/soft/jdk
-      LD_PRELOAD: /usr/local/lib/libtcmalloc.so
-      LD_PRELOAD: /usr/local/lib/libtcmalloc.so
-      LD_PRELOAD: /usr/local/lib/libtcmalloc.so
-      LD_PRELOAD: /usr/local/lib/libtcmalloc.so
-      LD_PRELOAD: /usr/local/lib/libtcmalloc.so
-      LD_PRELOAD: /usr/local/lib/libtcmalloc.so
-      LD_PRELOAD: /usr/local/lib/libtcmalloc.so
-      LD_PRELOAD: /usr/local/lib/libtcmalloc.so
-      LD_PRELOAD: /usr/local/lib/libtcmalloc.so
-      LD_PRELOAD: /usr/local/lib/libtcmalloc.so
-
-
-
+ImageProcessService:  
+  buildtype: jarOne   
+  build:              
+    env:build_args    
+      JAVA_HOME: /op  t/soft/openjdk1.8.0_202
+  runtime:            
+    env:              
+      JAVA_HOME: /op  t/soft/jdk
+      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
+      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
+      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
+      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
+      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
+      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
+                      
+      bLD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
+      aLD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
+      +LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
+                      
