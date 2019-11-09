@@ -26,7 +26,7 @@
 
 
 - 如何使用多组寄存器
-> 命令:“regname+cmd, 举例:  
+> 命令:“[regname]+cmd, 举例:  
 "ayiw 复制一个单词到寄存器a中  
 "ap 把寄存器a中的内容粘贴  
 “” p其实就等同p  
@@ -45,14 +45,14 @@
       JAVA_HOME: /op  t/soft/openjdk1.8.0_202
   runtime:            
     env:              
-      JAVA_HOME: /op  t/soft/jdk
-      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
-      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
-      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
-      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
-      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
-      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
-      bLD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
-      aLD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
-      +LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so
+      JAVA_HOME: /op  t/soft/jdk                     
+      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so    
+      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so    
+      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so    
+      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so    
+      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so    
+      LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so    
+      bLD_PRELOAD: /u  sr/local/lib/libtcmalloc.so   
+      aLD_PRELOAD: /u  sr/local/lib/libtcmalloc.so   
+      +LD_PRELOAD: /u  sr/local/lib/libtcmalloc.so   
                       
