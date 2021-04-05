@@ -66,3 +66,12 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
   * ![image](https://user-images.githubusercontent.com/53411757/113624119-ceddd180-9691-11eb-97ed-b83e5a0c20c7.png)
   * ctrl c ro
   * :PymodeLintAuto
+
+* https://github.com/preservim/tagbar
+* Require Universal Ctags
+  * :TagbarToggle
+
+
+* lfv89/vim-interestingwords
+  * ,k
+  * ,K
