@@ -79,6 +79,49 @@ func SetTitle()
   endif
 endfunc
 ```
+```vim
+" 常用设置
+" 设置行号
+set number
+colorscheme hybrid
+" 按F2进入粘贴模式
+set pastetoggle=<F2>
+" 高亮搜索
+set hlsearch
+" 设置折叠方式
+set foldmethod=indent
+
+" 一些方便的映射
+let mapleader=','
+1et g:mapleader=','
+
+" 使用jj进入normal模式
+inoremap jj <Esc>`^
+" 使用leader+w直接保存
+inoremap <leader>w <Esc>:w<cr>
+noremap <leader>w :w<cr>
+
+" 切换buffer
+nnoremap <silent> [b :bprevious<CR>
+nnoremap <silent> [n :bnext<CR>
+" use ctrl+h/j/k/l switch window
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
+
+"Sudo to write
+cnoremap w!! w !sudo tee %>/dev/null
+"json 格式化
+com! FormatJSON %!python3 -m json.tool
+
+“插件设置，这里使用了vim-plug call plug#begin（'~/.vim/plugged'）
+“安装插件只需要把github地址放到这里重启后执行：币1ugInstal1就好了
+Plug'mhinz/vim-startify'
+Plug'scrooloose/nerdtree'
+cal1 plug#end）
+![image](https://user-images.githubusercontent.com/53411757/113611464-21fb5880-9681-11eb-8d81-2a2c6621f8d9.png)
+```
 
 # Vim map
 ## Not recommanded
