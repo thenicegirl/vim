@@ -1,3 +1,5 @@
+> Standing on the shore can't learn to swim, Studying without practice can't learn Vim
+
 # Vim fast moving
 
 ## Move between characters:
@@ -20,8 +22,9 @@ Today is Monday, the day is 4th Nov 2019. I am from China. BeiJing is a beautifu
 ## Search and move between lines
 * `f{char}` Move to {char} character，
 * `t{char}` Move to the previous character of {char}
-- Semicolon (;) Comma (,) Continue to search for the next/previous character in the current line
+* Semicolon (;) Comma (,) Continue to search for the next/previous character in the current line
 * `F{char}` Move to the preceding {char}
+* Vice versa
 
 ## Move horizontally
 * `0` Move to the first character of the line
@@ -31,6 +34,8 @@ Today is Monday, the day is 4th Nov 2019. I am from China. BeiJing is a beautifu
 
 ## Page move
 * `gg` / `G` Move to the beginning and end of the file
+  * `ctrl+o` Quickly return
 * `H` /`M` / `L` Jump to the Head, Middle, Lower of screen
-* `ctrl+f` / `ctrl+b` Page up and down
+* `ctrl+f` / `ctrl+u` Page up
+* `ctrl+b` / `ctrl+d` Page down
 * `zz` Put the current line in the middle.
