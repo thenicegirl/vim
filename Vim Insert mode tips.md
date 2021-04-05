@@ -1,4 +1,4 @@
-# *2-03-Vim Insert mode tips.md
+# Vim Insert mode tips
 
 ## Common shortcut keys in edit mode
 - `ctrl+w` Quickly delete ***the current word***
