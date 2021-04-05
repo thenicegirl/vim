@@ -22,7 +22,7 @@ set number
 colorscheme hybrid
 set pastetoggle=<F2>  " Press F2 to paste mode
 set hlsearch  " highlight search
-set fildmethod=indent
+set foldmethod=indent
 
 let mapleader=','
 let g:mapleader=','
