@@ -5,7 +5,7 @@
 
 
 ## 文本对象操作方式
-**[number]<command>[text object]** 
+**`[number]<command>[text object]`** 
 - 解释:
 - number,表示次数
 - command,是命令，如d(elete),c(hange),y(ank),v(iew)
