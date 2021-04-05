@@ -79,3 +79,23 @@ func SetTitle()
   endif
 endfunc
 ```
+
+# Vim map
+## Not recommanded
+:map - x
+:map `<space>` viw
+:map `<c-d>` dd
+:unmap -
+
+* nmap
+* vmap
+*   :vmap \ U
+* imap
+*   :imap <c-d> <Esc>ddi
+* 
+
+## Recommanded
+* nnoremap
+* vnoremap
+* inoremap
+* 
