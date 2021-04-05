@@ -1,19 +1,22 @@
-# 2-05-Vim快速增删改查.md
+# Vim Quickly add, delete, modify and check
 
-## 增加字符
+## Formula
+d(delete), y(yank), c(change) + i(inside), a(around), t(to), (omit) + w(word), ...
+
+## Add
 a,i,o,A,I,O 6个字母，6中插入方式
 
-## 快速删除
-**normal 模式下**
-- x 快速删除一个字符
-- d 配合文本对象快速删除一个单词 daw(delete a word)
+## Delete
+**normal mode**
+- x Quickly delete a character
+- d 配合文本对象快速删除一个单词 daw(delete around word)
 - dd 删除一行
 - d + $/0，快速删除光标到行尾/行首
 - d + )/"/} ，快速删除到 ) 或者 “ 或者} 之间的内容
 - x 或者 d , 配合数字可以删除多个字符/行 ，如4x 或者 4dd
 - daw ,删除一个单词
 
-**visual 模式下**
+**visual mode**
 - 基本可以参考nomal模式下的命令
 - 批量添加注释
 - 1. ctrl+v进入块选中模式，选中文本之后，输入大写字母I，进行插入，按ESC完成。
