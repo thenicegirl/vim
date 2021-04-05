@@ -16,3 +16,21 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 * mhinz/vim-startify
 * vim-airline/vim-airline
 * Yggdroot/indentLine
+
+# Theme recommand
+
+* w0ng/vim-hybrid
+* altercation/vim-colors-solarized
+* morhetz/gruvbox
+
+# Other
+* preservim/nerdtree
+* ![image](https://user-images.githubusercontent.com/53411757/113613486-e31ad200-9683-11eb-98c4-e1110fe7d2c5.png)
+
+* kien/ctrlp.vim
+*   tornadowebpy
+
+* easymotion/vim-easymotion
+*   ss
+*   ...
+
