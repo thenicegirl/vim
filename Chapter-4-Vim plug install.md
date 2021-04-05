@@ -75,3 +75,12 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 * lfv89/vim-interestingwords
   * ,k
   * ,K
+
+* Shougo/deoplete.nvim
+  * set completeopt-=preview
+  * deoplete-jedi
+  * deoplete-go
+
+* coc.vim
+* ..
+
